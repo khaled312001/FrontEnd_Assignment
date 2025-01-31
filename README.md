@@ -81,7 +81,10 @@ Then open **http://localhost:4200/** in your browser.
 
 
 
-
+## 👨‍💻 Developer Information
+- **Name:** Khaled Ahmed
+- **Email:** khaledahmedhaggagy@gmail.com
+- **Phone:** +201204593124
 
 
 ✅ **Project Completed & Submitted Successfully!** 🎉
