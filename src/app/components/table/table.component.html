@@ -1,0 +1,53 @@
+<div class="table-container">
+  <table>
+      <thead class="table-head">
+          <tr>
+              <th>العميل</th>
+              <th>تاريخ التعيين</th>
+              <th>تاريخ إلغاء التعيين</th>
+              <th>المسؤول عن التعيين</th>
+              <th>الحقائق المحلية</th>
+              <th>الحقائق الدولية</th>
+              <th>المبلغ</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let item of tableData">
+              <td>
+                  <span class="tooltip-container">
+                      <img [src]="imagePaths.companyIcon" alt="Company Icon" class="company-icon" />
+                      <span class="text-truncated">{{ item.company }}</span>
+                      <span class="tooltip-text">{{ item.company }}</span>
+                  </span>
+              </td>
+              <td>{{ item.dateAssigned }}</td>
+              <td>{{ item.dateCancelled }}</td>
+              <td>{{ item.responsible }}</td>
+              <td>{{ item.localFacts }}</td>
+              <td>{{ item.globalFacts }}</td>
+              <td>{{ item.amount }}</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+<div class="pagination-container">
+  <div class="pagination-info">
+      <span>  عرض  </span>
+      <select class="select">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+      </select>
+      <span>  من   أصل 55 </span>
+  </div>
+  <div class="page-numbers">
+      <span class="span-number">❮</span>
+      <span class="span-number">5</span>
+      <span class="span-number">4</span>
+      <span class="span-number">3</span>
+      <span class="span-number">2</span>
+      <span class="current-page">1</span>
+      <span class="next-page">❯</span>
+  </div>
+</div>

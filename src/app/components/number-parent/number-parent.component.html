@@ -1,0 +1,66 @@
+<div class="container">
+  <number-header></number-header>
+  <div class="info-container">
+      <div class="header-row">
+          <h2 class="phone-number">012345678910</h2>
+          <button class="status-btn">قيد الاستخدام</button>
+          <div class="menu">
+              <button (click)="toggleMenu()" class="menu-button" [class.active]="isMenuOpen">
+                  <span class="menu-dots">●●●</span>
+              </button>
+              <div *ngIf="isMenuOpen" class="dropdown-menu">
+                  <button (click)="closeMenu()" class="menu-item">
+                      <img src="assets/edit-icon.png" alt="Edit Icon" class="menu-icon" />
+                      تعديل الرقم
+                  </button>
+                  <button (click)="closeMenu()" class="menu-item delete">
+                      <img src="assets/delete-icon.png" alt="Delete Icon" class="menu-icon" />
+                      إلغاء التعيين
+                  </button>
+              </div>
+          </div>
+      </div>
+      <div class="details-grid">
+          <div>
+              <p>اسم البروتوكول</p>
+              <span>فودافون مصر</span>
+          </div>
+          <div class="with-divider">
+              <p>الدولة</p>
+              <span>
+                  <img src="assets/flag-jordan.png" alt="Jordan Flag" class="flag-icon" />
+                  المملكة الأردنية الهاشمية
+              </span>
+          </div>
+          <div class="with-divider">
+              <p>اسم العميل الحالي</p>
+              <span class="tooltip-container">
+                  <img src="assets/company-icon.png" alt="Company Icon" class="company-icon" />
+                  <span class="text-truncated">الشركة الألمانية للإبادة</span>
+                  <span class="tooltip-text">الشركة الألمانية للإبادة</span>
+              </span>
+          </div>
+          <div class="with-divider">
+              <p>عدد الإضافات</p>
+              <span>09</span>
+          </div>
+          <div>
+              <p>تاريخ آخر شحنة</p>
+              <span>2024/12/29</span>
+          </div>
+          <div class="with-divider">
+              <p>الرصيد الحالي</p>
+              <span>5000 ج.م</span>
+          </div>
+          <div class="with-divider">
+              <p>الرصيد المستخدم للرقم الحالي</p>
+              <span>5000 ج.م</span>
+          </div>
+          <div class="with-divider">
+              <p>الرصيد المستخدم للرقم ككل</p>
+              <span>5000 ج.م</span>
+          </div>
+      </div>
+  </div>
+  <app-table ></app-table>
+</div>
