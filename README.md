@@ -75,7 +75,7 @@ Then open **http://localhost:4200/** in your browser.
 
 ![image](https://github.com/user-attachments/assets/d4e0b727-052c-4270-a812-050a5b49372d)
 
-![image](https://github.com/user-attachments/assets/80d729a4-3499-4073-a148-d45791fd5aa0)
+![image](https://github.com/user-attachments/assets/674f2476-cbc1-476e-b407-69f69a0eaf9e)
 
 ![image](https://github.com/user-attachments/assets/3cb16bb9-68bb-4b91-8ec0-a382cfc12abc)
 
