@@ -1,59 +1,87 @@
-# NumberModal
+# FrontEnd Assignment - Number Modal
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+## 📌 Project Overview
+This project is a **Number Management Dashboard** built using **Angular**. The application displays information about assigned numbers, including user details, status, and history, with a modal component that follows the provided **Figma design**.
 
-## Development server
+## 📜 Assignment Details
+This project was completed as part of the **hiring process** for the Frontend Developer position at **A Technologies**.
+- **Deadline**: 4 days (Saturday, 1st Feb 2025)
+- **Task**: Implement a responsive **single modal** using **Angular** that allows users to view their selected number.
+- **Design Integration**: The UI is implemented based on the provided **Figma design**.
 
-To start a local development server, run:
+## 🚀 Technologies Used
+- **Angular** (Standalone Components)
+- **TypeScript**
+- **HTML5 & CSS3**
+- **Bootstrap** (for styling)
+- **Media Queries** (Responsive Design)
+- **RTL & LTR Support**
+- **Git & GitHub** (Version Control)
 
-```bash
+## 🏗 Project Structure
+```
+number-modal/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── number-parent/
+│   │   │   ├── number-header/
+│   │   │   ├── table/
+│   │   │   ├── footer/
+│   ├── assets/
+│   ├── styles.css
+│   ├── main.ts
+├── public/
+│   ├── assets/
+│   │   ├── flag-jordan.png
+│   │   ├── avatar.png
+│   │   ├── company-icon.png
+├── README.md
+├── angular.json
+├── package.json
+├── tsconfig.json
+```
+
+## 🛠️ How to Setup & Run the Project
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/khaled312001/FrontEnd_Assignment.git
+cd FrontEnd_Assignment
+```
+
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Run the Application
+```sh
 ng serve
 ```
+Then open **http://localhost:4200/** in your browser.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🌟 Features
+- 📊 **Dynamic Table**: Displays detailed information with pagination.
+- 🎨 **Pixel-Perfect UI**: Fully matches the provided **Figma** design.
+- 🖥 **Standalone Angular Components**: Efficient and modular code structure.
+- 🌍 **RTL & LTR Support**: Works for both **Arabic** and **English** layouts.
+- 📱 **Fully Responsive**: Works across **mobile, tablet, and desktop**.
+- 🖥 **Exact Font & Styling**: Uses **Neo Sans Arabic** as per design.
+- ⚡ **Interactive Menu**: Toggle actions for modifying number data.
+- ✨ **Animations & Hover Effects**: Smooth UI interactions.
+- 📝 **Fully Documented Code** for easy maintenance.
 
-## Code scaffolding
+## 🖼 Screenshots
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![image](https://github.com/user-attachments/assets/d4e0b727-052c-4270-a812-050a5b49372d)
 
-```bash
-ng generate component component-name
-```
+![image](https://github.com/user-attachments/assets/80d729a4-3499-4073-a148-d45791fd5aa0)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![image](https://github.com/user-attachments/assets/3cb16bb9-68bb-4b91-8ec0-a382cfc12abc)
 
-```bash
-ng generate --help
-```
 
-## Building
 
-To build the project run:
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✅ **Project Completed & Submitted Successfully!** 🎉
